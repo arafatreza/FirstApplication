@@ -10,7 +10,7 @@ using PracticewithEFcore.DBContext;
 namespace PracticewithEFcore.Migrations
 {
     [DbContext(typeof(ShoppingContext))]
-    [Migration("20200222120802_InitialCreate")]
+    [Migration("20200223050203_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,13 @@ namespace PracticewithEFcore.Migrations
 
                     b.Property<string>("Name");
 
+                    b.Property<string>("Password");
+
+                    b.Property<string>("PasswordNew");
+
                     b.Property<DateTime>("RegisterDate");
+
+                    b.Property<string>("UserName");
 
                     b.HasKey("Id");
 

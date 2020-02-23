@@ -12,7 +12,7 @@ namespace PracticewithEFcore.DBContext
 
         public ShoppingContext()
         {
-            _connectionString = "Server = DESKTOP-28DHLU6; Database = EFcore; User Id = arafat; Password = 123; ";
+            _connectionString = "Server = DESKTOP-28DHLU6; Database = test; User Id = arafat; Password = 123; ";
         }
         public ShoppingContext(string connectionString)
         {

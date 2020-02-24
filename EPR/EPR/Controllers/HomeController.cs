@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using EPR.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AspdotnetcoreMVC.Models;
+using System.Diagnostics;
 
-namespace AspdotnetcoreMVC.Controllers
+namespace EPR.Controllers
 {
     public class HomeController : Controller
     {

@@ -24,6 +24,7 @@ namespace PracticewithEFcore.DBContext
             {
                 optionBuilder.UseSqlServer(_connectionString);
             }
+            base.OnConfiguring(optionBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

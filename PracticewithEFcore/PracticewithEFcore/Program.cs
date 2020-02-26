@@ -10,7 +10,7 @@ namespace PracticewithEFcore
         static void Main(string[] args)
         {
 
-            const string _connectionString = "Server = DESKTOP-28DHLU6; Database = EFcore; User Id = arafat; Password = 123; ";
+            const string _connectionString = "Server = DESKTOP-28DHLU6; Database = test; User Id = arafat; Password = 123; ";
             var context = new ShoppingContext(_connectionString);
             var Customer = new Customer()
             {
